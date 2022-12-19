@@ -41,3 +41,4 @@ jobs:
         uses: dulvui/libgdx-android-upload@v1.2
         with:
           package-name: com.salvai.whatcolor
+          working-directory: src
