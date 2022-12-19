@@ -9,7 +9,7 @@ on:
       - ".github/workflows/upload-ios.yml"
 
 env:
-  WORKING_DIRECTORY: ${{ env.WORKING_DIRECTORY }}
+  WORKING_DIRECTORY: src
   BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
   PROVISION_PROFILE_BASE64: ${{ secrets.PROVISION_PROFILE_BASE64 }}
   P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
