@@ -9,6 +9,7 @@ on:
       - ".github/workflows/upload-ios.yml"
 
 env:
+  WORKING_DIRECTORY: ${{ env.WORKING_DIRECTORY }}
   BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
   PROVISION_PROFILE_BASE64: ${{ secrets.PROVISION_PROFILE_BASE64 }}
   P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
@@ -17,9 +18,6 @@ env:
 jobs:
   deploy:
     runs-on: macos-12
-    defaults:
-      run:
-        working-directory: src
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
@@ -57,3 +55,4 @@ jobs:
         with:
           apple-id-username: ${{ secrets.APPLE_ID_USERNAME }}
           apple-id-password: ${{ secrets.APPLE_ID_PASSWORD }}
+          working-directory: ${{ env.WORKING_DIRECTORY }}
