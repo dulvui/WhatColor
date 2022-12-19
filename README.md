@@ -1,6 +1,9 @@
 # WhatColor
 Source code for the Android and iOS game WhatColor. Created with libGDX.
 
+[![Android upload](https://github.com/dulvui/whatcolor/actions/workflows/upload-android.yml/badge.svg)](https://github.com/dulvui/whatcolor/actions/workflows/upload-android.yml)
+[![iOS upload](https://github.com/dulvui/whatcolor/actions/workflows/upload-ios.yml/badge.svg)](https://github.com/dulvui/whatcolor/actions/workflows/upload-ios.yml)
+
 ## How to play
 You see a color pattern and then a color disappears. Click the missing color on the bottom until you loose.
 Every correct color pick gives you 1 point. Reach 10 points or more for the next level.
