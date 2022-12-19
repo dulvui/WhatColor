@@ -19,7 +19,7 @@ android {
         applicationId "com.salvai.whatcolor"
         minSdkVersion 14
         targetSdkVersion 32
-        versionCode 6
+        versionCode 7
         versionName "2.0"
     }
     signingConfigs {
