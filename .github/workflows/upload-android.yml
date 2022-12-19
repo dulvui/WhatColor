@@ -5,7 +5,7 @@ on:
     branches:    
       - 'prod'
     paths:
-      - "android/**"
+      - "src/android/**"
       - ".github/workflows/upload-android.yml"
 
 env:
