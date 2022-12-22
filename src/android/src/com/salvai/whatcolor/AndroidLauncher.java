@@ -1,9 +1,6 @@
 package com.salvai.whatcolor;
 
-import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -15,7 +12,6 @@ import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 
 public class AndroidLauncher extends AndroidApplication {
 
-    private View gameView;
     private WhatColor game;
 
     @Override
