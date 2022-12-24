@@ -33,8 +33,7 @@ public class AndroidLauncher extends AndroidApplication {
 
     private View createGameView(AndroidApplicationConfiguration cfg) {
         game = new WhatColor();
-        gameView = initializeForView(game, cfg);
-        return gameView;
+        return initializeForView(game, cfg);
     }
 
 }
