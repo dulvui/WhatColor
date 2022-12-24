@@ -17,6 +17,8 @@ Every correct color pick gives you 1 point. Reach 10 points or more for the next
   - [How to play](#how-to-play)
   - [Table of contents](#table-of-contents)
   - [Screenshots](#screenshots)
+- [Getting started](#getting-started)
+  - [Run it on your device](#run-it-on-your-device)
 - [Contributions](#contributions)
 - [Licenses](#licenses)
   - [Third party assets](#third-party-assets)
@@ -28,7 +30,23 @@ Every correct color pick gives you 1 point. Reach 10 points or more for the next
   <img src="screenshots/screenshot-2.png" alt="Level 2" width="200"/>
   <img src="screenshots/screenshot-3.png" alt="Level 3" width="200"/>
   <img src="screenshots/screenshot-4.png" alt="Level 4" width="200"/>
-</div>
+</div>  
+
+# Getting started
+
+Take a look at the official libGDX [documentation](https://libgdx.com/dev/) on how to get started with libGDX and how to setup the project.  
+Or just contact me at simon.dalvai@posteo.de, I'll help you to get started and update this README, so that others can also contribute. But until that doesn't happen, I'm too lazy to write a setup documentation.
+
+## Run it on your device
+You can install and make release and debug releases with the gradlew wrapper located in `src/gradlew`.  
+To run it on your attached device run
+```
+./gradlew installDebug
+```
+To make a debug aab build run
+```
+./gradlew assembleDebug
+```
 
 # Contributions
 If you want to contribute to the project, please fork the repo,    
