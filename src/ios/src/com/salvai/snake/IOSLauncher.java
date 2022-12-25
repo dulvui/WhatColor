@@ -5,7 +5,7 @@ import org.robovm.apple.uikit.UIApplication;
 
 import com.badlogic.gdx.backends.iosrobovm.IOSApplication;
 import com.badlogic.gdx.backends.iosrobovm.IOSApplicationConfiguration;
-package com.salvai.whatcolor.WhatColor;
+import com.salvai.whatcolor.WhatColor;
 
 
 public class IOSLauncher extends IOSApplication.Delegate {
