@@ -4,10 +4,6 @@ Source code for the Android and iOS game WhatColor. Created with libGDX.
 [![Android upload](https://github.com/dulvui/whatcolor/actions/workflows/upload-android.yml/badge.svg)](https://github.com/dulvui/whatcolor/actions/workflows/upload-android.yml)
 [![iOS upload](https://github.com/dulvui/whatcolor/actions/workflows/upload-ios.yml/badge.svg)](https://github.com/dulvui/whatcolor/actions/workflows/upload-ios.yml)
 
-## How to play
-You see a color pattern and then a color disappears. Click the missing color on the bottom until you loose.
-Every correct color pick gives you 1 point. Reach 10 points or more for the next level.
-
 <a href="https://play.google.com/store/apps/details?id=com.salvai.whatcolor" target="_blank"><img src="store-images/PlayStore.svg" alt="Get it on Google Play" height="49"></a>
 <!-- <a href="https://apps.apple.com/app/whatcolor/id1626543157" target="_blank"><img src="store-images/AppStore.svg" alt="Download on the App Store" height="50" ></a> -->
 
@@ -21,13 +17,17 @@ Every correct color pick gives you 1 point. Reach 10 points or more for the next
 
 ## Table of contents
 - [WhatColor](#whatcolor)
-  - [How to play](#how-to-play)
   - [Table of contents](#table-of-contents)
+  - [How to play](#how-to-play)
 - [Getting started](#getting-started)
   - [Run it on your device](#run-it-on-your-device)
 - [Contributions](#contributions)
 - [Licenses](#licenses)
   - [Third party assets](#third-party-assets)
+
+## How to play
+You see a color pattern and then a color disappears. Click the missing color on the bottom until you loose.
+Every correct color pick gives you 1 point. Reach 10 points or more for the next level.
 
 # Getting started
 
